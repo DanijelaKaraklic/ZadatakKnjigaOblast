@@ -66,23 +66,3 @@ public class Oblast {
                 '}';
     }
 }
-2.1.2 ZADATAK KLASA OBLAST
-        U paketu model napraviti novu klasu Oblast. Za ovu klasu definisati slede´ce atribute:
-        a) id koji je tipa int
-        b) naziv koji je tipa String
-        c) pocetnaStrana koji je tipa int
-        Svi atributi treba da imaju modifikator pristupa postavljen na private. Za klasu Oblast treba
-        dodati slede´ce statiˇcke atribute i njihove vrednosti:
-        a) POLJE_NAZIV vrednost je: "naziv"
-        b) POLJE_POCETNA_STRANA vrednost je: "pocetna_strana"
-        Za klasu Oblast dodati odgovaraju´cu anotaciju da u bazi odgovara tabeli "oblast". Za atribute
-        klase Oblast, osim statiˇckih atributa, dodati odgovaraju´ce anotacije da bi nazivi kolona odgovarali
-        vrednostima statiˇckih atributa i da bi vrednosti atributa klase Oblast morale biti unete
-        prilikom upisa u bazu. Klasi Oblast bi trebalo da se automatski generiše primarni kljuˇc.
-        Jedna oblast odgovara taˇcno jednoj knjizi. U klasi Oblast ubaciti odgovaraju´ci atribut i anotaciju
-        atributa kako bi se predstavio jediniˇcni kraj veze izme ¯ du Knjiga i Oblast klasa.
-        Za klasu Oblast napisati i konstruktor bez parametara i konstruktor koji oˇcekuje parametre
-        naziv i pocetnaStrana. Za odgovaraju´ce atribute dodati i get i set metode. Za statiˇcke atribute
-        ne treba da se dodaju get i setmetode.
-        Redefinisati toStringmetodu, tako da prikazuje vrednosti atributa id, naziv i pocetnaStrana.
-        Implementiranu funkcionalnost komitovati u git repozitoriju
