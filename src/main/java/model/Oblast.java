@@ -14,7 +14,7 @@ public class Oblast {
     private String naziv;
     @DatabaseField(columnName = POLJE_POCETNA_STRANA,canBeNull = false)
     private int pocetnaStrana;
-    @DatabaseField(foreign = true,foreignAutoRefresh = true,canBeNull = true)
+    @DatabaseField(foreign = true,foreignAutoRefresh = false,canBeNull = true)
     private Knjiga knjiga;
 
     public Oblast() {
