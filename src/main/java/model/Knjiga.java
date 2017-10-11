@@ -21,7 +21,10 @@ public class Knjiga {
     private int brojStrana;
     @DatabaseField(columnName = POLJE_DATUM_IZDAVANJA,canBeNull = false)
     private Date datum;
-    private boolean prisutna;
+    public static Boolean prisutna;
+
+
+
 
 
 
@@ -80,14 +83,14 @@ public class Knjiga {
         this.datum = datum;
     }
 
-    public boolean isPrisutna() {
+   /* public boolean isPrisutna() {
         return prisutna;
     }
 
     public void setPrisutna(boolean prisutna) {
         this.prisutna = prisutna;
     }
-
+*/
 
     @Override
     public String toString() {
